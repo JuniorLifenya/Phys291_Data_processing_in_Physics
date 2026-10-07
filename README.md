@@ -20,22 +20,20 @@ The following way to read / do the exercise and files handed.
 
 
 
-To run the website type in "make" in WSL(Ubuntu for whindows ) or
-            root -q build_site.C ← executes ROOT. 1) MAIN_CPP_CODES folder, look
-            at the Hamiltonian_FDM_Build, then , Main , then plot_wave, then
-            E_vs_eigenvalues 2) PHASE_SPACE_stuff. Look at
-            wigner_calc_Ground_State_distribution, then , my_wigner, then wigner
-            3D_wigner.cpp, then 3D(python version if you want), ignore plot_wave
-            momentum_density.C 3) Look at MAIN_CPP_CODES folder / RUNGE-Kutta
-            files. I failed to use them, becuase it became complicated for
-            hamiltonian stuff. I tried some hard stuff with the Runge-Kutta, but
-            could not make it good/ beautiful :(. Wanted for eksempel to present
-            the time evolution of a wavefunction. But! i have included examples
-            for their use and outputs So everything is kind of working trough
-            the Main.cpp where it runs and solves for the eigenvalues(aka
-            energies) and vectors( aka wave functions). Then it saves
-            wavefunction and energies as .dat files so we can visuallly read the
-            values there. Plots are generated inside the OUTPUT folder where we
+To run the website type in "make" in WSL(Ubuntu for whindows ) or root -q build_site.C ← executes ROOT. 
+1) MAIN_CPP_CODES folder, look at the Hamiltonian_FDM_Build, then , Main , then plot_wave, then
+2) E_vs_eigenvalues 2) PHASE_SPACE_stuff. Look at wigner_calc_Ground_State_distribution, then , my_wigner, then wigner
+3D_wigner.cpp, then 3D(python version if you want), ignore plot_wave momentum_density.C
+3) Look at MAIN_CPP_CODES folder / RUNGE-Kutta
+files. I failed to use them, becuase it became complicated for
+hamiltonian stuff. I tried some hard stuff with the Runge-Kutta, but
+could not make it good/ beautiful :(. Wanted for eksempel to present
+the time evolution of a wavefunction. But! i have included examples
+for their use and outputs So everything is kind of working trough
+the Main.cpp where it runs and solves for the eigenvalues(aka
+energies) and vectors( aka wave functions). Then it saves
+wavefunction and energies as .dat files so we can visuallly read the
+values there. Plots are generated inside the OUTPUT folder where we
             have the eigenvalues saved as a root file that can be used. I think
             also that the eigenvalues in the output files can be used for this
             plotting but idk how (maybe overthinking ) i mean i kind of did it
